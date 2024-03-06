@@ -1,0 +1,28 @@
+.enrolForm {
+  margin: 0 auto;
+}
+
+.enrolForm > div > input[type=text] {
+  margin: 10px 5px;
+  padding: 2px;
+}
+
+.enrolForm > button {
+  padding: 5px;
+  background-color: #0077b6;
+  color: #fefae0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+
+.enrolForm > button:hover {
+  background-color: #8ecae6;
+  color: #003049;
+}
+
+.enrolForm > button:active {
+  background-color: #14213d;
+  color: #ffffff;
+}
